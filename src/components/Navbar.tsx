@@ -27,6 +27,9 @@ const Navbar = () => {
         <Link to="/about" className="text-foreground/80 hover:text-ebook-purple transition-colors">
           About
         </Link>
+        <Link to="/get-started" className="text-foreground/80 hover:text-ebook-purple transition-colors">
+          Get Started
+        </Link>
       </div>
 
       <div className="flex items-center gap-3">
