@@ -9,7 +9,6 @@ import Editor from "./pages/Editor";
 import Templates from "./pages/Templates";
 import About from "./pages/About";
 import NotFound from "./pages/NotFound";
-import GetStarted from "./pages/GetStarted";
 
 const queryClient = new QueryClient();
 
@@ -24,7 +23,6 @@ const App = () => (
           <Route path="/editor" element={<Editor />} />
           <Route path="/templates" element={<Templates />} />
           <Route path="/about" element={<About />} />
-          <Route path="/get-started" element={<GetStarted />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
